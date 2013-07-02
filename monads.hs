@@ -80,5 +80,5 @@ Double])
 
 --}
 
-bind :: (Monad m) => m a -> (a -> m b) -> m b
-bind x f = f x
+-- bind :: (Monad m) => m a -> (a -> m b) -> m b
+-- bind x f = f x
